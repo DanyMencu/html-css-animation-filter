@@ -96,7 +96,18 @@
 
 /* ESERCIZIO 10 */
 
+.ex-10-icon {
+    animation: charge 1s infinite reverse linear;
+}
 
+@keyframes charge {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
 
 
 /* ESERCIZIO 11 */
